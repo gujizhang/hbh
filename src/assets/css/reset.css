@@ -1,0 +1,17 @@
+.product-collapse .van-collapse-item__content{
+  font-size: 10px;
+  letter-spacing: 1px;
+  background-color: #EFEFEF;
+}
+.product-collapse .van-cell{
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: #F5F5F5;
+  color: #CDA873;
+  text-align: center;
+  border-radius: 10px;
+}
+.van-collapse{
+  box-shadow: #6c757d 0 1px 5px;
+  border-radius: 10px;
+}

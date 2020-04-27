@@ -1,0 +1,52 @@
+@import "./normalize.css";
+
+@font-face{
+    font-family: "YaHei Consolas Hybrid";
+    src : url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: "YaHei Consolas Hybrid","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;*/
+    font-family: "YaHei Consolas Hybrid";
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: #fff;
+    color: #666666;
+    width: 100vw;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+.clear-fix::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear-fix {
+    zoom: 1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
